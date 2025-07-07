@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Sejuk Karawang - Layanan Profesional Perawatan AC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-wind"></i>
+                </div>
+                <div class="logo-text">AC Sejuk Karawang</div>
+            </div>
+            
+            <nav>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="navMenu">
+                    <li><a href="index.html" class="active">Beranda</a></li>
+                    <li><a href="#layanan">Layanan</a></li>
+                    <li><a href="testimoni.html">Testimoni</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="beranda">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>AC Bersih, Udara <span>Sejuk Alami</span> seperti di Pegunungan</h1>
+                <p>Layanan profesional perawatan AC di Karawang. Rasakan kesegaran udara bersih yang alami di rumah Anda!</p>
+                <a href="booking.html" class="btn">Booking Sekarang</a>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">1.200+</div>
+                        <div class="stat-text">Pelanggan Puas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-text">Layanan Darurat</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-text">Kepuasan Pelanggan</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-form">
+                <h2 class="form-title">Pesan Sekarang!</h2>
+                <form id="leadForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Nomor WhatsApp</label>
+                        <input type="tel" id="phone" placeholder="0812-XXXX-XXXX" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Alamat di Karawang</label>
+                        <input type="text" id="address" placeholder="Kecamatan/Jalan" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Jenis Layanan</label>
+                        <select id="service" required>
+                            <option value="">Pilih Layanan</option>
+                            <option value="bersih">Bersih AC Reguler</option>
+                            <option value="bersih_premium">Bersih AC Premium</option>
+                            <option value="isi_freon">Isi Freon</option>
+                            <option value="perbaikan">Perbaikan AC</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">DAPATKAN HARGA KHUSUS!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Section -->
+    <section class="services" id="layanan">
+        <div class="container">
+            <div class="section-title">
+                <h2>Layanan Kami</h2>
+                <p>Kami menyediakan berbagai layanan perawatan AC profesional untuk kebutuhan rumah dan bisnis Anda</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>Bersih AC Reguler</h3>
+                    <p>Pembersihan unit indoor dan outdoor secara menyeluruh untuk mengembalikan kinerja AC</p>
+                    <div class="service-price">Rp 150.000/unit</div>
+                    <a href="booking.html" class="btn">Pesan Sekarang</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pump-soap"></i>
+                    </div>
+                    <h3>Bersih AC Premium</h3>
+                    <p>Pembersihan lengkap dengan sterilisasi UV untuk membunuh bakteri dan jamur</p>
+                    <div class="service-price">Rp 250.000/unit</div>
+                    <a href="booking.html" class="btn">Pesan Sekarang</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gas-pump"></i>
+                    </div>
+                    <h3>Isi Freon</h3>
+                    <p>Pengisian freon sesuai kapasitas AC dengan garansi kebocoran 30 hari</p>
+                    <div class="service-price">Rp 200.000/unit</div>
+                    <a href="booking.html" class="btn">Pesan Sekarang</a>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Perbaikan AC</h3>
+                    <p>Perbaikan berbagai masalah teknis AC dengan teknisi berpengalaman</p>
+                    <div class="service-price">Rp 300.000+</div>
+                    <a href="booking.html" class="btn">Pesan Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Section -->
+    <section class="testimonials" id="testimoni">
+        <div class="container">
+            <div class="section-title">
+                <h2>Apa Kata Pelanggan</h2>
+                <p>Testimonial dari pelanggan yang telah menggunakan layanan kami</p>
+            </div>
+            
+            <div class="testimonial-container">
+                <div class="testimonial-content">
+                    <p>Saya sangat puas dengan layanan AC Sejuk Karawang. Teknisi datang tepat waktu, pekerjaan rapi, dan AC saya sekarang dingin seperti baru. Udara di rumah terasa segar seperti di pegunungan. Terima kasih!</p>
+                </div>
+                
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <img src="images/testimonial/customer1.jpg" alt="Bapak Budi">
+                    </div>
+                    <div class="author-info">
+                        <h4>Bapak Budi</h4>
+                        <p>Telukjambe Timur, Karawang</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="logo">
+                        <div class="logo-img">
+                            <i class="fas fa-wind"></i>
+                        </div>
+                        <div class="logo-text">AC Sejuk Karawang</div>
+                    </div>
+                    <p>Layanan profesional perawatan AC di Karawang. Memberikan kesejukan alami untuk rumah dan kantor Anda.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="#layanan">Layanan Kami</a></li>
+                        <li><a href="testimoni.html">Testimoni</a></li>
+                        <li><a href="booking.html">Booking Online</a></li>
+                        <li><a href="#kontak">Kontak Kami</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Layanan Kami</h3>
+                    <ul>
+                        <li><a href="booking.html">Bersih AC Reguler</a></li>
+                        <li><a href="booking.html">Bersih AC Premium</a></li>
+                        <li><a href="booking.html">Isi Freon</a></li>
+                        <li><a href="booking.html">Perbaikan AC</a></li>
+                        <li><a href="booking.html">Layanan Darurat</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Kontak Kami</h3>
+                    <p><i class="fas fa-phone contact-icon"></i> 0812-3456-7890</p>
+                    <p><i class="fas fa-envelope contact-icon"></i> info@acsejukkarawang.com</p>
+                    <p><i class="fas fa-map-marker-alt contact-icon"></i> Jl. Industri Raya No. 15, Karawang</p>
+                    <p><i class="fas fa-clock contact-icon"></i> Senin-Minggu: 08:00 - 20:00</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 AC Sejuk Karawang. Layanan Profesional Perawatan AC. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
